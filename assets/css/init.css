@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body
+{
+	width: 100vw;
+	height: auto;
+	background: cyan;
+	overflow-x: hidden;
+}
+ul
+{
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+
+}
+li
+{
+	list-style: none;
+	font-family: Arial;
+	font-size: 1.3rem;
+	color: white;
+	height: 15vw;
+	width: 15vh;
+	background: #bcccbb;
+	
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+
+}
+.super_content
+{
+	background: yellow;
+	display: flex;
+	flex-direction: row;
+}
+li:hover{
+	width: 15vw;
+	background: rgb(84, 22, 199);
+	color: white;
+}
+.content
+{
+	width: 15vw;
+	height: 100vh;
+	background: #bcccbb;
+}
+canvas#lienzo
+{
+	background-color: white;
+	width: 85vw;
+	height: 100vh;
+}
+
+#modal
+{
+	background: #749c72;
+	color: white;
+	position: absolute;
+	width: 50vw;
+	height: 60vh;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
+#buton
+{
+	background: white;
+	color: black;
+	padding: 1rem;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 2rem;
+	cursor: pointer;
+
+}
+
+#matrix
+{
+	margin:0 auto;
+}
+th , td
+{
+	color: white;
+	border: 3px white solid;
+	padding: 1rem;
+}
